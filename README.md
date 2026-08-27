@@ -1,7 +1,7 @@
 # Greenden
 
 ## 🔗 Live Link
-[Visit Greenden Live](https://greenden.example.com)
+[Visit Greenden Live](https://sherwinjclitus.github.io/Greenden/)
 
 ---
 
