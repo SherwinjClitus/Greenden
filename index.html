@@ -1,0 +1,263 @@
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"> -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greenden</title>
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!---Responsive navbar-->
+    <nav
+      class="bg-green-100 p-2 flex items-center justify-between shadow-xl sticky top-0 z-10"
+    >
+      <h1 class="text-2xl">Greenden</h1>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+        class="size-5 md:hidden"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+          clip-rule="evenodd"
+        />
+      </svg>
+      <ul class="gap-5 text-gray-600 hidden md:flex">
+        <li>
+          <a class="hover:underline" href="./index.html">Home</a>
+        </li>
+        <li>
+          <a class="hover:underline" href="./products.html">Products</a>
+        </li>
+        <li>
+          <a class="hover:underline" href="./contact.html">Contact us</a>
+        </li>
+      </ul>
+    </nav>
+    <!---Header Section-->
+    <section class="bg-green-100 p-4 flex justify-center items-center">
+      <div>
+        <p class="mb-4">
+          We Offer You a wide Range of Artificial and Natural Flowers
+        </p>
+
+        <h2 class="font-bold text-4xl mb-5">Plants for your Interior</h2>
+
+        <div>
+          <button
+            class="bg-black rounded text-amber-50 p-2 hover:shadow-2xl hover:cursor-pointer"
+          >
+            Shop Now
+          </button>
+          <button
+            class="bg-green-100 rounded border p-2 hover:shadow-2xl hover:cursor-pointer"
+          >
+            watch Video
+          </button>
+        </div>
+
+        <p class="mt-5">160+ Plant Species | 100+ Clients</p>
+      </div>
+
+      <div class="hidden md:block">
+        <img
+          src="./images/header-image.jpg"
+          alt="header-img"
+          class="w-80 h-80 object-cover p-5 rounded-4xl"
+        />
+      </div>
+    </section>
+    <!--ABOUT SECTION-->
+    <section>
+      <div class="text-center">
+        <h2 class="font-bold text-3xl mt-3">About Us</h2>
+        <p class="mt-1">
+          This site for those who admire the beauty and harmony of nature
+        </p>
+      </div>
+      <div class="md:flex p-10">
+        <div class="border border-black p-2 m-6 text-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-15 inline"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625ZM7.5 15a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5A.75.75 0 0 1 7.5 15Zm.75 2.25a.75.75 0 0 0 0 1.5H12a.75.75 0 0 0 0-1.5H8.25Z"
+              clip-rule="evenodd"
+            />
+            <path
+              d="M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963Z"
+            />
+          </svg>
+          <h2 class="font-medium text-2xl">Large Assortment</h2>
+          <p class="text-justify mt-2">
+            Explore a wide variety of beautiful plants and find the perfect
+            addition to your home, office, or garden. From flowering plants to
+            leafy greens, we offer a diverse selection to suit every space and
+            style.
+          </p>
+        </div>
+        <div class="border border-black p-2 m-6 text-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-15 inline"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12 5.25c1.213 0 2.415.046 3.605.135a3.256 3.256 0 0 1 3.01 3.01c.044.583.077 1.17.1 1.759L17.03 8.47a.75.75 0 1 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l3-3a.75.75 0 0 0-1.06-1.06l-1.752 1.751c-.023-.65-.06-1.296-.108-1.939a4.756 4.756 0 0 0-4.392-4.392 49.422 49.422 0 0 0-7.436 0A4.756 4.756 0 0 0 3.89 8.282c-.017.224-.033.447-.046.672a.75.75 0 1 0 1.497.092c.013-.217.028-.434.044-.651a3.256 3.256 0 0 1 3.01-3.01c1.19-.09 2.392-.135 3.605-.135Zm-6.97 6.22a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l1.752-1.751c.023.65.06 1.296.108 1.939a4.756 4.756 0 0 0 4.392 4.392 49.413 49.413 0 0 0 7.436 0 4.756 4.756 0 0 0 4.392-4.392c.017-.223.032-.447.046-.672a.75.75 0 0 0-1.497-.092c-.013.217-.028.434-.044.651a3.256 3.256 0 0 1-3.01 3.01 47.953 47.953 0 0 1-7.21 0 3.256 3.256 0 0 1-3.01-3.01 47.759 47.759 0 0 1-.1-1.759L6.97 15.53a.75.75 0 0 0 1.06-1.06l-3-3Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+
+          <h2 class="font-medium text-2xl">Free and Fast Shipping</h2>
+          <p class="text-justify mt-2">
+            Enjoy free and fast shipping on your plant orders. We carefully
+            package every plant to ensure it arrives fresh, healthy, and ready
+            to brighten up your space.
+          </p>
+        </div>
+        <div class="border border-black p-2 m-6 text-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-15 inline"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M19.5 9.75a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 1 1.5 0v2.69l4.72-4.72a.75.75 0 1 1 1.06 1.06L16.06 9h2.69a.75.75 0 0 1 .75.75Z"
+              clip-rule="evenodd"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <h2 class="font-medium text-2xl">24/7 Support</h2>
+          <p class="text-justify mt-2">
+            We're here to help whenever you need us. Our 24/7 customer support
+            is available to answer your questions and assist you with orders,
+            plant care, and anything else you need.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--BEST SELLER SECTION-->
+    <section class="p-5">
+      <h1 class="font-bold text-3xl text-center mb-10">Best Seller's</h1>
+      <div class="grid grid-cols-2 md:grid-cols-4 text-center gap-5">
+        <div>
+          <img
+            src="./images/bestseller-1.png"
+            alt="bestseller-1"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2 border-2 rounded-2xl"
+          />
+          <h1>Rose plant</h1>
+          <p>$20</p>
+        </div>
+        <div>
+          <img
+            src="./images/bestseller-2.png"
+            alt="bestseller-2"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2 border-2 rounded-2xl"
+          />
+          <h1>Peace Lily plant</h1>
+          <p>$15</p>
+        </div>
+        <div>
+          <img
+            src="./images/bestseller-3.png"
+            alt="bestseller-3"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2 border-2 rounded-2xl"
+          />
+          <h1>Calathea plant</h1>
+          <p>$10</p>
+        </div>
+        <div>
+          <img
+            src="./images/bestseller-4.png"
+            alt="bestseller-4"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2 border-2 rounded-2xl"
+          />
+          <h1>Eucalyptus Plant</h1>
+          <p>$5</p>
+        </div>
+      </div>
+    </section>
+    <!---REVIEW SECTION-->
+    <section>
+      <h1 class="text-3xl font-bold text-center">Customer review's</h1>
+      <div class="bg-green-800 text-amber-50 p-5 m-10 rounded-4xl">
+        <p>
+          “I’m really happy with the quality of the plants and the overall
+          service. The plants arrived fresh, healthy, and beautifully packed.
+          The whole experience was smooth and hassle-free.”
+        </p>
+        <p class="text-amber-300">- Terry william</p>
+      </div>
+      <div class="bg-green-800 text-amber-50 p-5 m-10 rounded-4xl">
+        <p>
+          “The plants were exactly as shown, and the delivery was quick. I’m
+          very pleased with my purchase and would definitely recommend this
+          service to anyone looking for beautiful plants.”
+        </p>
+        <p class="text-amber-300">- Khadija</p>
+      </div>
+      <div class="bg-green-800 text-amber-50 p-5 m-10 rounded-4xl">
+        <p>
+          “Excellent variety and great customer service! My plant arrived in
+          perfect condition, and it has added so much life to my space. I’ll
+          definitely be ordering again.”
+        </p>
+        <p class="text-amber-300">- Padmavathi Seshadri Venkateshwari</p>
+      </div>
+    </section>
+    <!--NEWS LETTER-->
+    <section>
+      <div class="flex flex-col gap-2 m-10 items-center">
+        <h1 class="text-3xl font-bold text-center">Join our News Letter</h1>
+        <p class="text-center">
+          Signup for our email newspaper to get exclusive discounts, updates, and
+          more
+        </p>
+        <input
+          type="text"
+          placeholder="xyz@gmail.com"
+          class="text-center border-2"
+          style="width: 40%"
+        />
+        <button
+          class="bg-black text-amber-50 p-2 rounded-2xl hover:cursor-pointer"
+        >
+          Subscribe
+        </button>
+      </div>
+    </section>
+    <!--FOOTER-->
+    <section>
+      <footer class="p-10 bg-green-100">
+        <h1 class="font-bold text-3xl">Greenden</h1>
+        <p>
+          Bring nature closer to home. Discover beautiful plants, carefully
+          selected to add freshness, beauty, and life to every space.
+        </p>
+        <br>
+        <p>
+          © 2026 GreenNest. All Rights Reserved. Made with 💚 for plant lovers.
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>
