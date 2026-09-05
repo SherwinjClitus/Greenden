@@ -94,3 +94,7 @@ Greenden/
 ├── package-lock.json
 ├── .gitignore
 └── README.md
+```
+---
+
+**Made with ❤️ by Sherwin**
